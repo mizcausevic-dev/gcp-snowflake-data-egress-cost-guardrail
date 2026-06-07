@@ -1,0 +1,10 @@
+{
+  "name": "gcp-snowflake-data-egress-cost-guardrail",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Data egress cost guardrail for GCP, BigQuery, and Snowflake movement-risk decisions.",
+  "scripts": {
+    "test": "node scripts/validate.js"
+  },
+  "license": "AGPL-3.0-only"
+}

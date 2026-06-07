@@ -1,0 +1,54 @@
+{
+  "name": "GCP Snowflake Data Egress Cost Guardrail",
+  "slug": "gcp-snowflake-data-egress-cost-guardrail",
+  "group": "GCP + Snowflake",
+  "platforms": [
+    "GCP",
+    "Snowflake"
+  ],
+  "vertical": "Platform Engineering / Data Engineering",
+  "signals": [
+    {
+      "lane": "egress cost",
+      "exposure": 58,
+      "savings": 14,
+      "investment": 52,
+      "boardStory": "Evidence lane for board-ready risk, savings, investment, and narrative decisions."
+    },
+    {
+      "lane": "warehouse burn",
+      "exposure": 62,
+      "savings": 17,
+      "investment": 54,
+      "boardStory": "Evidence lane for board-ready risk, savings, investment, and narrative decisions."
+    },
+    {
+      "lane": "BigQuery slot pressure",
+      "exposure": 66,
+      "savings": 20,
+      "investment": 56,
+      "boardStory": "Evidence lane for board-ready risk, savings, investment, and narrative decisions."
+    },
+    {
+      "lane": "Snowflake share drift",
+      "exposure": 70,
+      "savings": 23,
+      "investment": 58,
+      "boardStory": "Evidence lane for board-ready risk, savings, investment, and narrative decisions."
+    },
+    {
+      "lane": "data lineage gaps",
+      "exposure": 74,
+      "savings": 26,
+      "investment": 60,
+      "boardStory": "Evidence lane for board-ready risk, savings, investment, and narrative decisions."
+    },
+    {
+      "lane": "FinOps sequencing",
+      "exposure": 78,
+      "savings": 29,
+      "investment": 62,
+      "boardStory": "Evidence lane for board-ready risk, savings, investment, and narrative decisions."
+    }
+  ]
+}
